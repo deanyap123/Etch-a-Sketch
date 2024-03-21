@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  border: solid pink 2rem;
+}
+
+.right,
+.left {
+  padding: 2rem;
+}
+.row {
+  display: flex;
+}
+
+.clear {
+  padding: 2rem;
+  width: 20rem;
+  border-radius: 5%;
+  font-size: 2rem;
+  border: rgb(0, 0, 0);
+  background-color: rgb(255, 211, 233);
+  font-weight: 900;
+  color: #282525;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.clear:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 2px solid #000;
+}
